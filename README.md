@@ -1,62 +1,95 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bookstore App
 
-> Description the project.
-
+> The Bookstore is a website created an MVP version of it that allows user to:
+Display a list of books.
+Add a book.
+Remove a selected book.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML CSS & JavaScript
+- Framework(Library): React
+- Technologies used: VS code
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[coming soon](https://livedemo.com)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- To get a local copy up and running follow these simple example steps.
 
+# Setup
+
+- git clone https://github.com/Roseokpe/bookstore.git
+
+# Usage
+
+- Usage: cd <https://github.com/Roseokpe/bookstore.git>, npm install, npm start.
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Have a working and updated browser
+- Have a local version control like **git** install on your computer
+- Have knowledge about figma to adapt the design by following some specific requirements
+- Have an account and sign in on GitHub, as online/remote version control system
+- Download waves to check project accessibilty
+
 ### Setup
+
+-Clone the git repo using this command: **git clone https://github.com/Roseokpe/bookstore.git**
 
 ### Install
 
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+
+### Create React App
+
+- npx create-react-app my-app
+- cd my-app
+- npm start
+
 ### Usage
+
+- Usage: cd <https://github.com/Roseokpe/bookstore.git>, npm install, npm start.
 
 ### Run tests
 
+- **npx hint .** : To test html codes
+- **npx stylelint "**/\*.{css,scss}"\*\* : To test css code
+- **npx eslint .** : To test Eslint Report
+
 ### Deployment
 
-
+- Go to settings
+- Click on pages
+- Choose your source
+- Choose folder
+- choose a theme(optional)
+- Enforce HTTPS
+- And then save
 
 ## Authors
 
-👤 **Author1**
+👤 **Rose Okpe**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@roseokpe](https://github.com/roseokpe)
+- Twitter: [@roseokpe](https://twitter.com/roseokpe)
+- LinkedIn: [Rose Okpe](https://linkedin.com/in/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -68,8 +101,10 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+The design has been inspired by:
+
+[Microverse](https://www.microverse.org)
+
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
