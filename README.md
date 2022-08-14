@@ -1,8 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians App
+# Bookstore App
 
-> A single page app consisting of a calculator and a section for random scientific quotes.
+> The Bookstore is a website created an MVP version of it that allows user to:
+Display a list of books.
+Add a book.
+Remove a selected book.
 
 ## Built With
 
