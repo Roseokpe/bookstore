@@ -1,4 +1,3 @@
-// import { createStore, combineReducers, applyMiddleware } from 'redux';
 import configureStore from '@reduxjs/toolkit';
 import logger from 'redux-logger';
 import booksReducers from './books/books';
