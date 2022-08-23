@@ -50,40 +50,43 @@ const AddNewBook = () => {
   };
 
   return (
-    <form className="add-book-section" onSubmit={submitBookToStore}>
-      <h1>ADD NEW BOOK</h1>
-      <input
-        type="text"
-        placeholder="Book title"
-        name="title"
-        onChange={onChange}
-        required
-      />
+    <div className="hr">
+      <form className="add-book-section" onSubmit={submitBookToStore}>
+        <h1>ADD NEW BOOK</h1>
+        <input
+          type="text"
+          placeholder="Book title"
+          name="title"
+          onChange={onChange}
+          required
+        />
 
-      <input
-        type="text"
-        placeholder="Book author"
-        name="author"
-        onChange={onChange}
-        required
-      />
-      <select
-        placeholder="categories"
-        name="category"
-        onChange={onChange}
-        required
-      >
-        <option value="">Category</option>
-        <option value="Romance">Romance</option>
-        <option value="Documentary">Documentary</option>
-        <option value="Fiction">Fiction</option>
-        <option value="Crime">Crime</option>
-      </select>
-      <button type="submit" onClick={submitBookToStore}>
-        Add Book
-      </button>
-      <small>{errorMsg}</small>
-    </form>
+        <input
+          type="text"
+          placeholder="Book author"
+          name="author"
+          onChange={onChange}
+          required
+        />
+        <select
+          placeholder="categories"
+          name="category"
+          onChange={onChange}
+          required
+        >
+          <option value="">Category</option>
+          <option value="Romance">Romance</option>
+          <option value="Documentary">Documentary</option>
+          <option value="Fiction">Fiction</option>
+          <option value="Crime">Crime</option>
+        </select>
+        <button type="submit" onClick={submitBookToStore}>
+          Add Book
+        </button>
+        <small>{errorMsg}</small>
+      </form>
+    </div>
+
   );
 };
 
