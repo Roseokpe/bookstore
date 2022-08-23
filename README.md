@@ -15,7 +15,7 @@ Remove a selected book.
 
 ## Live Demo (if available)
 
-[coming soon](https://livedemo.com)
+[LIVE DEMO](https://liberty-bookstore.netlify.app/)
 
 ## Getting Started
 
